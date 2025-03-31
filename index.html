@@ -2,107 +2,96 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CC資料下載網</title>
-  <style>
-    body {
-      font-family: 'Microsoft JhengHei', sans-serif;
-      background-color: #fff0f5;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      background-color: #ffccdd;
-      padding: 20px;
-      text-align: center;
-      font-size: 2em;
-      color: #e91e63;
-      font-weight: bold;
-    }
-    .container {
-      padding: 2em;
-      max-width: 800px;
-      margin: 0 auto;
-      background-color: #fff;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    .note {
-      font-size: 1.2em;
-      color: #d6336c;
-      margin-bottom: 1.5em;
-      text-align: center;
-    }
-    .form-button {
-      text-align: center;
-      margin-bottom: 2em;
-    }
-    .form-button a {
-      display: inline-block;
-      background-color: #ff69b4;
-      color: white;
-      padding: 15px 30px;
-      text-decoration: none;
-      border-radius: 10px;
-      font-size: 1.2em;
-    }
-    .form-button a:hover {
-      background-color: #ff1493;
-    }
-    h2 {
-      color: #e91e63;
-      font-size: 1.6em;
-      border-bottom: 2px dashed pink;
-      padding-bottom: 0.5em;
-    }
-    ul {
-      list-style-type: '🌸 ';
-      padding-left: 1em;
-    }
-    ul li {
-      margin-bottom: 0.6em;
-      font-size: 1em;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CC資料下載網</title>
+    <style>
+        body {
+            font-family: "微軟正黑體", sans-serif;
+            background-color: #fff0f5;
+            color: #d63384;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffc0cb;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            height: 60px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+        header h1 {
+            font-size: 28px;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            background: #fff;
+            border: 2px dashed pink;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #ff69b4;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 12px;
+            margin: 10px 0;
+        }
+        .package-list {
+            margin-top: 20px;
+        }
+        .package-item {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    📚 CC資料下載網
-  </header>
-  <div class="container">
-    <p class="note">🔶 請填寫表單後付款，我們將於收到通知後儘快寄送下載連結 💌</p>
-    <div class="form-button">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScDLva2XKNahnPVShHH8ZMYFTJaz_W-2Qzuzva3ZNu4OtFKew/viewform" target="_blank">
-        📝 點我填寫表單
-      </a>
-    </div>
-    <h2>📦 資料包清單與價格</h2>
-    <ul>
-      <li>資料包A：6套管理者如何帶好團隊——售價38元</li>
-      <li>資料包B：10套情商管理——售價28元</li>
-      <li>資料包C：11套內訓師——售價28元</li>
-      <li>資料包D：20套可愛卡通PPT——售價8元</li>
-      <li>資料包E：23套人事管理制度——售價38元</li>
-      <li>資料包F：25套試用期續職報告——售價18元</li>
-      <li>資料包G：45套室內設計PPT——售價28元</li>
-      <li>資料包H：64地產報告PPT——售價28元</li>
-      <li>資料包I：64套團隊管理——售價58元</li>
-      <li>資料包J：70套手繪風格PPT——售價28元</li>
-      <li>資料包K：73產品報告PPT——售價18元</li>
-      <li>資料包L：76套人事行政——售價38元</li>
-      <li>資料包M：87套日本和風PPT——售價28元</li>
-      <li>資料包N：97套人力資源——售價38元</li>
-      <li>資料包O：98套銷售培訓——售價38元</li>
-      <li>資料包P：159套員工入職PPT——售價38元</li>
-      <li>資料包Q：205套其他職業培訓——售價18元</li>
-      <li>資料包R：557套個人簡歷報告——售價28元</li>
-      <li>資料包S：600套EXCEL工作計畫表——售價58元</li>
-      <li>資料包T：HR人資Excel工具集——售價88元</li>
-      <li>資料包W：收納整理教學影片——售價38元</li>
-      <li>資料包X：家政公司全套資料——售價88元</li>
-    </ul>
-  </div>
+    <header>
+        <img src="logo照片_Cartoonize Effect.jpg" alt="Logo" />
+        <h1>CC資料下載網</h1>
+    </header>
+    <main>
+        <div class="section">
+            <p>🔶請填寫表單後付款，我們將於收到通知後儘快寄送下載連結💌</p>
+            <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScDLva2XKNahnPVShHH8ZMYFTJaz_W-2Qzuzva3ZNu4OtFKew/viewform" target="_blank">📋 點我填寫表單</a>
+        </div>
+        <div class="section">
+            <h2>📦 資料包清單與價格</h2>
+            <div class="package-list">
+                <div class="package-item">資料包A：6套管理者如何帶好團隊 —— 售價38元</div>
+                <div class="package-item">資料包B：10套情商管理 —— 售價28元</div>
+                <div class="package-item">資料包C：11套內訓師 —— 售價28元</div>
+                <div class="package-item">資料包D：20套可愛卡通PPT —— 售價8元</div>
+                <div class="package-item">資料包E：23套PPT+4套WORD人事管理制度 —— 售價38元</div>
+                <div class="package-item">資料包F：25套試用期續職報告 —— 售價18元</div>
+                <div class="package-item">資料包G：45套室內設計PPT —— 售價28元</div>
+                <div class="package-item">資料包H：64地產報告PPT —— 售價28元</div>
+                <div class="package-item">資料包I：64套團隊管理 —— 售價58元</div>
+                <div class="package-item">資料包J：70套手繪風格PPT —— 售價28元</div>
+                <div class="package-item">資料包K：73產品報告PPT —— 售價18元</div>
+                <div class="package-item">資料包L：76套人事行政 —— 售價38元</div>
+                <div class="package-item">資料包M：87套日本和風PPT —— 售價28元</div>
+                <div class="package-item">資料包N：97套人力資源 —— 售價38元</div>
+                <div class="package-item">資料包O：98套銷售培訓 —— 售價38元</div>
+                <div class="package-item">資料包P：159套員工入職培訓PPT —— 售價38元</div>
+                <div class="package-item">資料包Q：205套其他職業培訓 —— 售價18元</div>
+                <div class="package-item">資料包R：557套個人簡歷報告 —— 售價28元</div>
+                <div class="package-item">資料包S：600套EXCEL工作計畫表 —— 售價58元</div>
+                <div class="package-item">資料包T：HR人資實用Excel薪資考勤績效範本 —— 售價88元</div>
+                <div class="package-item">資料包W：收納整理師課程+教學影片 —— 售價38元</div>
+                <div class="package-item">資料包X：家政公司全套資料 —— 售價88元</div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
