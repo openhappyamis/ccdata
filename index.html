@@ -1,98 +1,105 @@
 
 <!DOCTYPE html>
-
 <html lang="zh-Hant">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>CC資料下載網</title>
-<style>
-        body {
-            font-family: "微軟正黑體", sans-serif;
-            background-color: #fff0f5;
-            color: #d63384;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #ffc0cb;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-        }
-        header img {
-            height: 60px;
-            margin-right: 10px;
-            border-radius: 50%;
-        }
-        header h1 {
-            font-size: 28px;
-        }
-        main {
-            padding: 20px;
-        }
-        .section {
-            background: #fff;
-            border: 2px dashed pink;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            background: #ff69b4;
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 12px;
-            margin: 10px 0;
-        }
-        .package-list {
-            margin-top: 20px;
-        }
-        .package-item {
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>CC資料下載網</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: "微軟正黑體", sans-serif;
+      color: #d63384;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffc0cb;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+    }
+    header img {
+      height: 60px;
+      margin-right: 1rem;
+      border-radius: 50%;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .form-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 1rem 2rem;
+      background-color: #ff69b4;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    .package-list {
+      margin-top: 2rem;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #fffafc;
+      padding: 1rem;
+      border: 2px dashed #ff69b4;
+      border-radius: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-<header>
-<img alt="CC資料下載網 Logo" src="logo照片_Cartoonize Effect.jpg"/>
-<h1>CC資料下載網</h1>
-</header>
-<main>
-<div class="section">
-<p>🔶請填寫表單後付款，我們將於收到通知後儘快寄送下載連結💌</p>
-<a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScDLva2XKNahnPVShHH8ZMYFTJaz_W-2Qzuzva3ZNu4OtFKew/viewform" target="_blank">📋 點我填寫表單</a>
-</div>
-<div class="section">
-<h2>📦 資料包清單與價格</h2>
-<div class="package-list">
-<div class="package-item">資料包A：6套管理者如何帶好團隊 —— 售價38元</div>
-<div class="package-item">資料包B：10套情商管理 —— 售價28元</div>
-<div class="package-item">資料包C：11套內訓師 —— 售價28元</div>
-<div class="package-item">資料包D：20套可愛卡通PPT —— 售價8元</div>
-<div class="package-item">資料包E：23套PPT+4套WORD人事管理制度 —— 售價38元</div>
-<div class="package-item">資料包F：25套試用期續職報告 —— 售價18元</div>
-<div class="package-item">資料包G：45套室內設計PPT —— 售價28元</div>
-<div class="package-item">資料包H：64地產報告PPT —— 售價28元</div>
-<div class="package-item">資料包I：64套團隊管理 —— 售價58元</div>
-<div class="package-item">資料包J：70套手繪風格PPT —— 售價28元</div>
-<div class="package-item">資料包K：73產品報告PPT —— 售價18元</div>
-<div class="package-item">資料包L：76套人事行政 —— 售價38元</div>
-<div class="package-item">資料包M：87套日本和風PPT —— 售價28元</div>
-<div class="package-item">資料包N：97套人力資源 —— 售價38元</div>
-<div class="package-item">資料包O：98套銷售培訓 —— 售價38元</div>
-<div class="package-item">資料包P：159套員工入職培訓PPT —— 售價38元</div>
-<div class="package-item">資料包Q：205套其他職業培訓 —— 售價18元</div>
-<div class="package-item">資料包R：557套個人簡歷報告 —— 售價28元</div>
-<div class="package-item">資料包S：600套EXCEL工作計畫表 —— 售價58元</div>
-<div class="package-item">資料包T：HR人資實用Excel薪資考勤績效範本 —— 售價88元</div>
-<div class="package-item">資料包W：收納整理師課程+教學影片 —— 售價38元</div>
-<div class="package-item">資料包X：家政公司全套資料 —— 售價88元</div>
-</div>
-</div>
-</main>
+  <header>
+    <img src="logo.jpg" alt="Logo" />
+    <h1>CC資料下載網</h1>
+  </header>
+  <section>
+    <p>🔶請填寫表單後付款，我們將於收到通知後儘快寄送下載連結💌</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScDLva2XKNahnPVShHH8ZMYFTJaz_W-2Qzuzva3ZNu4OtFKew/viewform" class="form-btn">📋 點我填寫表單</a>
+
+    <div class="package-list">
+      <p>📦 資料包清單與價格</p>
+      <ul>
+        <li>資料包A：6套管理者如何帶好團隊 —— 售價38元</li>
+        <li>資料包B：10套情商管理 —— 售價28元</li>
+        <li>資料包C：11套內訓師 —— 售價28元</li>
+        <li>資料包D：20套可愛卡通PPT —— 售價8元</li>
+        <li>資料包E：23套PPT+4套WORD人事管理制度 —— 售價38元</li>
+        <li>資料包F：25套試用期續職報告 —— 售價18元</li>
+        <li>資料包G：45套室內設計PPT —— 售價28元</li>
+        <li>資料包H：64地產報告PPT —— 售價28元</li>
+        <li>資料包I：64套團隊管理 —— 售價58元</li>
+        <li>資料包J：70套手繪風格PPT —— 售價28元</li>
+        <li>資料包K：73產品報告PPT —— 售價18元</li>
+        <li>資料包L：76套人事行政 —— 售價38元</li>
+        <li>資料包M：87套日本和風PPT —— 售價28元</li>
+        <li>資料包N：97套人力資源 —— 售價38元</li>
+        <li>資料包O：98套銷售培訓 —— 售價38元</li>
+        <li>資料包P：159套員工入職培訓PPT —— 售價38元</li>
+        <li>資料包Q：205套其他職業培訓 —— 售價18元</li>
+        <li>資料包R：557套個人簡歷報告 —— 售價28元</li>
+        <li>資料包S：600套EXCEL工作計畫表 —— 售價58元</li>
+        <li>資料包T：HR人資實用Excel薪資考勤績效範本 —— 售價88元</li>
+        <li>資料包W：收納整理師課程+教學影片 —— 售價38元</li>
+        <li>資料包X：家政公司全套資料 —— 售價88元</li>
+      </ul>
+      <p>📦</p>
+    </div>
+  </section>
+  <footer>
+    📮 聯絡信箱：openhappyshot@gmail.com
+  </footer>
 </body>
 </html>
