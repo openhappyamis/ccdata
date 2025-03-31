@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
@@ -62,6 +63,33 @@
     .btn:hover {
       background-color: #ff1493;
     }
+    .contact-form {
+      background-color: #fffafd;
+      border: 2px dashed #ff99cc;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    .contact-form button {
+      background-color: #ff69b4;
+      color: white;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #ff85c1;
+    }
   </style>
 </head>
 <body>
@@ -104,7 +132,24 @@
           <li>📦 資料包X：家政公司全套資料 —— 售價88元</li>
         </ul>
       </div>
-      <p style="text-align:center; color:#888;">📮 聯絡信箱：openhappyshot@gmail.com</p>
+      <div class="contact-form">
+        <h2>📮 客製化聯絡表單</h2>
+        <p style="font-size: 14px; color: #777;">
+          如您有任何客製化需求、資料包詢問、表單定制、發票申請等，歡迎填寫以下表單，我們將於 1～2 個工作天內回覆您！
+        </p>
+        <form action="https://formsubmit.co/openhappyshot@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="box">
+          <label>👤 姓名<input type="text" name="name" required></label>
+          <label>📧 Email<input type="email" name="email" required></label>
+          <label>📱 聯絡方式（LINE ID / 電話）<input type="text" name="contact"></label>
+          <label>💬 留言內容<textarea name="message" rows="5" placeholder="1. 需求用途
+2. 喜歡的樣式
+3. 其他補充說明" required></textarea></label>
+          <button type="submit">🚀 送出留言</button>
+        </form>
+      </div>
+      <p style="text-align:center; color:#888; margin-top: 20px;">📮 聯絡信箱：openhappyshot@gmail.com</p>
     </div>
   </div>
 </body>
