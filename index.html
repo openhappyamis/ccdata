@@ -1,125 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CC資料下載網</title>
-  <style>
-    body {
-      font-family: "Comic Sans MS", "Microsoft JhengHei", sans-serif;
-      margin: 0;
-      padding: 2rem;
-      background-color: #fff7f8;
-      color: #444;
-    }
-    header {
-      text-align: center;
-      padding-bottom: 1rem;
-    }
-    h1 {
-      font-size: 2.5rem;
-      color: #ff69b4;
-      margin-bottom: 0.5rem;
-    }
-    section {
-      max-width: 850px;
-      margin: 0 auto;
-      background: #ffeef2;
-      padding: 2rem;
-      border-radius: 20px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
-    h2, h3 {
-      color: #ff6fa0;
-    }
-    .qrcode {
-      text-align: center;
-      margin: 2rem 0;
-      font-size: 1.1rem;
-      padding: 1rem;
-      background: #ffeef2;
-      border: 2px dashed #ffb6c1;
-      border-radius: 16px;
-    }
-    .button {
-      display: inline-block;
-      margin: 1rem 0;
-      padding: 1rem 2rem;
-      background: #ff8ab9;
-      color: #fff;
-      border: none;
-      border-radius: 12px;
-      font-size: 1.1rem;
-      text-decoration: none;
-      transition: background 0.3s ease;
-    }
-    .button:hover {
-      background: #ff6fa0;
-    }
-    ul {
-      list-style-type: "🌸 ";
-      padding: 0;
-    }
-    ul li {
-      padding: 0.5rem 0;
-      font-size: 1rem;
-    }
-    p, li, ol li {
-      line-height: 1.6;
-    }
-  </style>
 </head>
 <body>
-  <header>
-    <div style="display:flex;align-items:center;gap:10px;"><img src="logo.jpg" alt="Logo" style="width:60px;border-radius:50%"><h1>📚 CC資料下載網</h1></div>
-    <p>一次下載永久使用！專為職場打造的數位資源平台</p>
-  </header>
+  <h1>CC資料下載網</h1>
+  <p>🔶請填寫表單後付款，我們將於收到通知後儘快寄送下載連結💌</p>
 
-  <section>
-    <h2>📌 購買流程</h2>
-    <ol>
-      <li>查看下方資料包列表並確認金額</li>
-      <li>付款（目前僅支援 LINE Pay）</li>
-      <li>點擊下方按鈕填寫表單</li>
-      <li>系統自動寄送下載連結到您的 Email</li>
-    </ol>
+  <section id="contact" style="background-color: #fff0f5; padding: 2em; border-top: 4px dashed pink; margin-top: 2em;">
+    <h2 style="color: #ff69b4; font-size: 1.8em; text-align: center;">📮 客製化聯絡表單</h2>
+    <p style="text-align: center; max-width: 700px; margin: 0 auto; font-size: 1em; line-height: 1.6;">
+      📩 如果您有任何客製化簡報、表單、資料需求，請填寫以下表單，我們將於 1～2 個工作日內回覆您。<br>
+      📦 如需諮詢現有資料包，也歡迎使用此表單留言。<br>
+      📎 若有參考檔案可提供，請在留言中說明，我們將依據內容報價與回覆您！<br>
+      ✨ 也可透過 LINE 聯絡我們更快速處理！
+    </p>
 
-    <div class="qrcode">
-      🔶 請填寫表單後付款，我們將於收到通知後儘快寄送下載連結 💌
+    <div style="margin-top: 2em; display: flex; justify-content: center;">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUeTzbmYZsEES6y5c-EV1qEFlrKLRrgNvbeUD4sb2YJx-2dQ/viewform?embedded=true" width="100%" height="820" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
     </div>
 
-    <div style="text-align:center">
-      <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLScDLva2XKNahnPVShHH8ZMYFTJaz_W-2Qzuzva3ZNu4OtFKew/viewform?usp=header" target="_blank">📝 點我填寫表單</a>
+    <div style="margin-top: 3em; text-align: center;">
+      <h3 style="color: #ff69b4; font-size: 1.2em;">📱 加我 LINE 諮詢</h3>
+      <img src="./images/line帳號.jpg" alt="LINE QR Code" style="width: 160px; margin-top: 1em; border: 4px dashed pink; border-radius: 10px;">
     </div>
-
-    <h2>📦 資料包列表與價格</h2>
-    <ul>
-      <li>資料包A：6套管理者如何帶好團隊（NT$38）</li>
-      <li>資料包B：10套情商管理（NT$28）</li>
-      <li>資料包C：11套內訓師（NT$28）</li>
-      <li>資料包D：20套可愛卡通PPT（NT$8）</li>
-      <li>資料包E：23套人事管理制度（NT$38）</li>
-      <li>資料包F：25套試用期續職報告（NT$18）</li>
-      <li>資料包G：45套室內設計PPT（NT$28）</li>
-      <li>資料包H：64地產報告PPT（NT$28）</li>
-      <li>資料包I：64套團隊管理（NT$58）</li>
-      <li>資料包J：70套手繪風格PPT（NT$28）</li>
-      <li>資料包K：73產品報告PPT（NT$18）</li>
-      <li>資料包L：76套人事行政（NT$38）</li>
-      <li>資料包M：87套日本和風PPT（NT$28）</li>
-      <li>資料包N：97套人力資源（NT$38）</li>
-      <li>資料包O：98套銷售培訓（NT$38）</li>
-      <li>資料包P：159套員工入職PPT（NT$38）</li>
-      <li>資料包Q：205套其他職業培訓（NT$18）</li>
-      <li>資料包R：557套個人簡歷報告（NT$28）</li>
-      <li>資料包S：600套EXCEL工作計畫表（NT$58）</li>
-      <li>資料包T：HR人資Excel工具集（NT$88）</li>
-      <li>資料包W：收納整理教學影片（NT$38）</li>
-      <li>資料包X：家政公司全套資料（NT$88）</li>
-    </ul>
-
-    <h3>📩 聯絡我們</h3>
-    <p>如有任何問題請來信：ccdata.download@gmail.com</p>
   </section>
 </body>
 </html>
